@@ -25,7 +25,6 @@ Port: 3306
 
     mysqli_select_db($link, "sPJAkGFeRc")
         or die("Не удалось выбрать БД");
-    echo "Hello world!!!!вфывыфва!!";
 
     $query = "SELECT * FROM book";
     $result = mysqli_query($link, $query)
